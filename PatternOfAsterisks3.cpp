@@ -16,7 +16,7 @@ int main(){
 		if (!cin.good()){
 			cin.clear();
 			cin.ignore(1024,'\n');
-			}
+		}
 	} while (N<=0);
 		
 	for(i=1;i<=N;i++){
