@@ -20,23 +20,23 @@ int main(){
 	} while (N<=0);
 		
 	for(i=1;i<=N;i++){
-    	for(j=1;j<=N;j++){
-    		if(j<=i){
-        		cout<<"*";
-      		}
-      		else{
-       			cout<<" ";
-      		} 
-    	}
+    		for(j=1;j<=N;j++){
+    			if(j<=i){
+        			cout<<"*";
+      			}
+      			else{
+       				cout<<" ";
+      			} 
+    		}
 
-    	for(j=N;j>=1;j--){
-      		if(j<=i){
-       			cout<<"*";
-      		}
-      		else{
-       			cout<<" ";
-      		}
-    	}
+    		for(j=N;j>=1;j--){
+      			if(j<=i){
+       				cout<<"*";
+      			}
+      			else{
+       				cout<<" ";
+      			}
+    		}
     	
  		cout << "\n" ;
  	}
